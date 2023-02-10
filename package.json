@@ -1,0 +1,28 @@
+{
+  "name": "expressjs-breaker",
+  "version": "1.0.0",
+  "description": "Quick ExpressJS Breaker in 1 hour for: Crasher/Interviewee preparing for MERN Stack position\r Including:\r + Server setup\r + Routing, routers\r + Data transfering\r + HTML render\r + Middlewares\r + JSON, form parsing\r + Query params parsing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinlong1st/ExpressJS-Breaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinlong1st/ExpressJS-Breaker/issues"
+  },
+  "homepage": "https://github.com/sinlong1st/ExpressJS-Breaker#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
