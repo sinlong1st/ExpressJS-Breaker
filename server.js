@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 // Set your view engine with ejs (or pug)
 app.set("view engine", "ejs");
 // app.use(logger); // should be on the top of the file if you want to use it everywhere, this is for every route
